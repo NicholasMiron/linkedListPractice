@@ -8,7 +8,7 @@ beforeEach(() => {
 })
 
 
-describe('Node', () => {
+xdescribe('Node', () => {
   it('Should have a value property', () => {
     expect(nodeA).toHaveProperty('value');
   });
@@ -20,7 +20,7 @@ describe('Node', () => {
 
 
 describe('LinkedList', () => {
-  describe('Properties', () => {
+  xdescribe('Properties', () => {
     it('Should have a head property', () => {
       expect(linkedList).toHaveProperty('head');
     });
@@ -32,7 +32,7 @@ describe('LinkedList', () => {
 
 
   describe('Methods', () => {
-    describe('size', () => {
+    xdescribe('size', () => {
       it('Should have a property size', () => {
         expect(linkedList).toHaveProperty('size');
         expect(typeof linkedList.size).toBe('function');
@@ -82,7 +82,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('addToTail', () => {
+    xdescribe('addToTail', () => {
       it('Should have a property addToTail', () => {
         expect(linkedList).toHaveProperty('addToTail');
         expect(typeof linkedList.addToTail).toBe('function');
@@ -110,7 +110,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('addToHead', () => {
+    xdescribe('addToHead', () => {
       it('Should have a property addToHead', () => {
         expect(linkedList).toHaveProperty('addToHead');
         expect(typeof linkedList.addToHead).toBe('function');
@@ -138,7 +138,7 @@ describe('LinkedList', () => {
     });
 
     
-    describe('removeHead', () => {
+    xdescribe('removeHead', () => {
       it('Should have a method removeHead', () => {
         expect(linkedList).toHaveProperty('removeHead');
         expect(typeof linkedList.removeHead).toBe('function');
@@ -185,7 +185,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('removeTail', () => {
+    xdescribe('removeTail', () => {
       it('Should have a method removeTail', () => {
         expect(linkedList).toHaveProperty('removeTail');
         expect(typeof linkedList.removeTail).toBe('function');
@@ -239,7 +239,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('contains', () => {
+    xdescribe('contains', () => {
       it('Should have a method contains', () => {
         expect(linkedList).toHaveProperty('contains');
         expect(typeof linkedList.contains).toBe('function');
@@ -276,7 +276,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('removeValue', () => {
+    xdescribe('removeValue', () => {
       it('Should have a method removeValue', () => {
         expect(linkedList).toHaveProperty('removeValue');
         expect(typeof linkedList.removeValue).toBe('function');
@@ -337,7 +337,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('forEach', () => {
+    xdescribe('forEach', () => {
       it('Should have a method forEach', () => {
         expect(linkedList).toHaveProperty('forEach');
         expect(typeof linkedList.forEach).toBe('function');
@@ -390,7 +390,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('reverse', () => {
+    xdescribe('reverse', () => {
       it('Should have a method reverse', () => {
         expect(linkedList).toHaveProperty('reverse');
         expect(typeof linkedList.reverse).toBe('function');
@@ -435,7 +435,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('addTailNode', () => {
+    xdescribe('addTailNode', () => {
       it('Should have a method addTailNode', () => {
         expect(linkedList).toHaveProperty('addTailNode');
         expect(typeof linkedList.addTailNode).toBe('function');
@@ -473,7 +473,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('addHeadNode', () => {
+    xdescribe('addHeadNode', () => {
       it('Should have a method addHeadNode', () => {
         expect(linkedList).toHaveProperty('addHeadNode');
         expect(typeof linkedList.addHeadNode).toBe('function');
@@ -511,7 +511,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('containsNode', () => {
+    xdescribe('containsNode', () => {
       it('Should have a method containsNode', () => {
         expect(linkedList).toHaveProperty('containsNode');
         expect(typeof linkedList.containsNode).toBe('function');
@@ -551,7 +551,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('removeNode', () => {
+    xdescribe('removeNode', () => {
       it('Should have a method removeNode', () => {
         expect(linkedList).toHaveProperty('removeNode');
         expect(typeof linkedList.removeNode).toBe('function');
@@ -610,7 +610,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('moveToTail', () => {
+    xdescribe('moveToTail', () => {
       it('Should have a method moveToTail', () => {
         expect(linkedList).toHaveProperty('moveToTail');
         expect(typeof linkedList.moveToTail).toBe('function');
@@ -657,7 +657,7 @@ describe('LinkedList', () => {
     });
 
 
-    describe('moveToHead', () => {
+    xdescribe('moveToHead', () => {
       it('Should have a method moveToHead', () => {
         expect(linkedList).toHaveProperty('moveToHead');
         expect(typeof linkedList.moveToHead).toBe('function');
@@ -706,7 +706,7 @@ describe('LinkedList', () => {
   });
 
 
-  describe('Behavior', () => {
+  xdescribe('Behavior', () => {
     it('Should be able to alternate adding methods', () => {
       const dank = new Node('dank');
       const banana = new Node('banana');
@@ -777,8 +777,8 @@ describe('LinkedList', () => {
 });
 
 
-describe('Doubly Linked List', () => {
-  describe('Node', () => {
+xdescribe('Doubly Linked List', () => {
+  xdescribe('Node', () => {
     it('Should have a previous property', () => {
       expect(nodeA).toHaveProperty('previous');
     });
@@ -786,7 +786,7 @@ describe('Doubly Linked List', () => {
 
 
   describe('Methods', () => {
-    describe('forEachBackwards', () => {
+    xdescribe('forEachBackwards', () => {
       it('Should have a method forEachBackwards', () => {
         expect(linkedList).toHaveProperty('forEachBackwards');
         expect(typeof linkedList.forEachBackwards).toBe('function');
@@ -837,7 +837,7 @@ describe('Doubly Linked List', () => {
   });
 
   
-  describe('Behavior', () => {
+  xdescribe('Behavior', () => {
     it('Should set previous and next value of nodes', () => {
       const node1 = new Node(1);
       const node2 = new Node(2);
