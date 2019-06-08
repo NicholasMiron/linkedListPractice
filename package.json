@@ -1,0 +1,15 @@
+{
+  "name": "linkedlist",
+  "version": "0.0.1",
+  "description": "",
+  "main": "LinkedList.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Nicholas Miron <nicholasmiron@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {}
+}
