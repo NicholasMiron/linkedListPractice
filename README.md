@@ -1,9 +1,9 @@
 # Linked List Practice
 
-##Purpose
+## Purpose
 This repo is designed to help learn how to make linked lists in javascript.
 
-##Getting Started
+## Getting Started
 Step by step to getting started
 
 Clone the repo
@@ -16,7 +16,7 @@ npm install
 ```
 And that's all!
 
-##Running the tests
+## Running the tests
 There are tests for every a wide range of linked list methods.
 
 To get started follow these steps:
