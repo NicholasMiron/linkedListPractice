@@ -70,12 +70,12 @@ npm run test
 5. Understand Linked Lists Like A Boss
 
 Try to get all methods to run in constant time expecpt for: 
-  -contains
-  -removeValue
-  -forEach
-  -reverseList
-  -containsNode
-  -forEachBackwards
+  - contains
+  - removeValue
+  - forEach
+  - reverseList
+  - containsNode
+  - forEachBackwards
   
 Value based methods should only accept values as arguments
 Node based methods should only accept nodes as arguments
