@@ -50,19 +50,19 @@ npm run test
    14. moveToTail
    15. moveToHead
 3. Refactor below to Doubly Linked List Class
-   a. Node Class
-   b. addToTail
-   c. addToHead
-   d. removeHead
-   e. removeTail
-   f. removeValue
-   g. reverse
-   h. addTailNode
-   i. addHeadNode
-   j. removeNode
-   k. moveToTail
-   l. moveToHead
-   m. add forEachBackwards
+   1. Node Class
+   2. addToTail
+   3. addToHead
+   4. removeHead
+   5. removeTail
+   6. removeValue
+   7. reverse
+   8. addTailNode
+   9. addHeadNode
+   10. removeNode
+   11. moveToTail
+   12. moveToHead
+   13. add forEachBackwards
 3. Add additional failing tests for above methods
 4. Add new methods and tests
 5. Understand Linked Lists Like A Boss
