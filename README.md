@@ -34,7 +34,7 @@ npm run test
 
 1. Create Node Class
 2. Create Singlely Linked List Class With Below Methods
-  --Value Based Methods--
+  - Value Based Methods
   a. size
   b. addToTail
   c. addToHead
@@ -44,7 +44,7 @@ npm run test
   g. removeValue
   h. forEach
   i. reverseList
-  --Node Based Methods--
+  - Node Based Methods
   j. addTailNode
   k. addHeadNode
   l. containsNode
