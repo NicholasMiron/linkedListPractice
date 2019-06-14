@@ -34,21 +34,21 @@ npm run test
 
 1. Create Node Class
 2. Create Singlely Linked List Class With Below Methods
-   a. size
-   b. addToTail
-   c. addToHead
-   d. removeHead
-   e. removeTail
-   f. contains
-   g. removeValue
-   h. forEach
-   i. reverseList
-   j. addTailNode
-   k. addHeadNode
-   l. containsNode
-   m. removeNode
-   n. moveToTail
-   o. moveToHead
+   1. size
+   2. addToTail
+   3. addToHead
+   4. removeHead
+   5. removeTail
+   6. contains
+   7. removeValue
+   8. forEach
+   9. reverseList
+   10. addTailNode
+   11. addHeadNode
+   12. containsNode
+   13. removeNode
+   14. moveToTail
+   15. moveToHead
 3. Refactor below to Doubly Linked List Class
    a. Node Class
    b. addToTail
